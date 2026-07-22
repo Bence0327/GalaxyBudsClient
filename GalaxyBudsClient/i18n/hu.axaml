@@ -134,8 +134,8 @@ Jobb: {1}</sys:String>
     <sys:String x:Key="event_ambient_toggle">Környezeti hangok hangereje</sys:String>
     <sys:String x:Key="event_ambient_volume_up">Fel</sys:String>
     <sys:String x:Key="event_ambient_volume_down">Le</sys:String>
-    <sys:String x:Key="event_eq_toggle">Toggle equalizer</sys:String>
-    <sys:String x:Key="event_eq_switch">Iterate equalizer presets</sys:String>
+    <sys:String x:Key="event_eq_toggle">Ekvalizer kezelése</sys:String>
+    <sys:String x:Key="event_eq_switch">Ekvalizer módok váltása</sys:String>
     <sys:String x:Key="event_anc_toggle">Aktív zajkioltás</sys:String>
     <sys:String x:Key="event_anc_switch_sensitivity">Aktív zajkioltás szintje</sys:String>
     <sys:String x:Key="event_nc_switch_one">Zajcsökk. a fülh. egyik felén</sys:String>
@@ -164,61 +164,61 @@ Jobb: {1}</sys:String>
     A hivatalos Samsung Wearable app használata ezzel az alkalmazással együtt csatlakozási problémákat okozhat. Ellenőrizd, hogy a hivatalos app be van zárva ezen app használata előtt.</sys:String>
 
     <!--Main page-->
-    <sys:String x:Key="mainpage_header">Home</sys:String>
-    <sys:String x:Key="mainpage_corrupt_data">Received corrupted data. Reconnecting...</sys:String>
-    <sys:String x:Key="mainpage_fit_test">Earbud fit test</sys:String>
-    <sys:String x:Key="mainpage_find_my_earbuds">Find my earbuds</sys:String>
-    <sys:String x:Key="mainpage_touchpad">Touchpad</sys:String>
-    <sys:String x:Key="mainpage_ambient_sound">Ambient sound</sys:String>
-    <sys:String x:Key="mainpage_noise">Noise control</sys:String>
-    <sys:String x:Key="mainpage_equalizer">Equalizer</sys:String>
-    <sys:String x:Key="mainpage_advanced">Advanced settings</sys:String>
-    <sys:String x:Key="mainpage_system">System</sys:String>
+    <sys:String x:Key="mainpage_header">Kezdőlap</sys:String>
+    <sys:String x:Key="mainpage_corrupt_data">Sérült adat érkezett. Újracsatlakozás...</sys:String>
+    <sys:String x:Key="mainpage_fit_test">Fülhallgató illeszkedési tesztje</sys:String>
+    <sys:String x:Key="mainpage_find_my_earbuds">Fülhallgató megkeresése</sys:String>
+    <sys:String x:Key="mainpage_touchpad">Fülhallgató-vezérlők</sys:String>
+    <sys:String x:Key="mainpage_ambient_sound">Környezet hangjai</sys:String>
+    <sys:String x:Key="mainpage_noise">Fülhallgató módjai</sys:String>
+    <sys:String x:Key="mainpage_equalizer">Ekvalizer</sys:String>
+    <sys:String x:Key="mainpage_advanced">Speciális funkciók</sys:String>
+    <sys:String x:Key="mainpage_system">Rendszer</sys:String>
 
     <!--Device selection page (setup)-->
-    <sys:String x:Key="devsel_header">Select your earbuds</sys:String>
-    <sys:String x:Key="devsel_manual_pair_title">Is your device not listed?</sys:String>
-    <sys:String x:Key="devsel_manual_pair_description">Make sure your earbuds have already been paired. If they are still not recognized, try using the manual connection option.</sys:String>
-    <sys:String x:Key="devsel_manual_pair">Manual connection</sys:String>
-    <sys:String x:Key="devsel_nodevices">Please connect and pair your earbuds first</sys:String>
-    <sys:String x:Key="devsel_nodevices_title">No paired devices found</sys:String>
-    <sys:String x:Key="devsel_invalid_selection">Please select a valid device</sys:String>
-    <sys:String x:Key="devsel_winrt_title">Use alternative Bluetooth backend</sys:String>
-    <sys:String x:Key="devsel_winrt">Much better stability, but may not work on all PCs with some Bluetooth adapters (A restart may be required!)</sys:String>
+    <sys:String x:Key="devsel_header">Válaszd ki a fülhallgatódat</sys:String>
+    <sys:String x:Key="devsel_manual_pair_title">Nincs itt a fülhallgatód?</sys:String>
+    <sys:String x:Key="devsel_manual_pair_description">Ellenőrizd, hogy a füllhallgatód már párosítva van. Ha igen, de még mindig nincs itt, próbáld meg a manuálisan csatlakoztatást.</sys:String>
+    <sys:String x:Key="devsel_manual_pair">Manuális csatlakoztatás</sys:String>
+    <sys:String x:Key="devsel_nodevices">Elösször csatlakoztasd a fülhallgatód</sys:String>
+    <sys:String x:Key="devsel_nodevices_title">Nem található csatlakoztatott fülhallgató</sys:String>
+    <sys:String x:Key="devsel_invalid_selection">Kérlek válassz egy valid eszközt</sys:String>
+    <sys:String x:Key="devsel_winrt_title">Alternatív Bluetooth backend használata</sys:String>
+    <sys:String x:Key="devsel_winrt">Jobb stabilitást ad, de nem biztosan működik minden számítógépes bluetooth adapterrel (Újraindítás szükséges lehet).</sys:String>
 
     <!--Device page-->
-    <sys:String x:Key="devices_header">Paired devices</sys:String>
-    <sys:String x:Key="devices_new">New</sys:String>
-    <sys:String x:Key="devices_new_long">Pair new device</sys:String>
-    <sys:String x:Key="devices_select_inactive">Select</sys:String>
-    <sys:String x:Key="devices_select_active">Selected</sys:String>
-    <sys:String x:Key="devices_delete">Delete</sys:String>
-    <sys:String x:Key="devices_delete_long">Delete device</sys:String>
-    <sys:String x:Key="devices_delete_confirmation">Are you sure you want to remove this device?</sys:String>
-    <sys:String x:Key="devices_settings_link">Manage paired devices</sys:String>
-    <sys:String x:Key="devices_settings_link_desc">Add, remove, or select a primary device</sys:String>
+    <sys:String x:Key="devices_header">Csatlakoztatott eszközök</sys:String>
+    <sys:String x:Key="devices_new">Új</sys:String>
+    <sys:String x:Key="devices_new_long">Új eszköz csatlakoztatása</sys:String>
+    <sys:String x:Key="devices_select_inactive">Kijelölés</sys:String>
+    <sys:String x:Key="devices_select_active">Kijelölve</sys:String>
+    <sys:String x:Key="devices_delete">Töröl</sys:String>
+    <sys:String x:Key="devices_delete_long">Eszköz törlése</sys:String>
+    <sys:String x:Key="devices_delete_confirmation">Biztosan el szeretnéd távolítani ezt az eszközt?</sys:String>
+    <sys:String x:Key="devices_settings_link">Csatlakoztatott eszközök kezelése</sys:String>
+    <sys:String x:Key="devices_settings_link_desc">Add hozzá, távolítsd el, vagy jelöld ki a fő eszközödet</sys:String>
 
     <!--Touchpad gestures-->
-    <sys:String x:Key="touchpad_gesture_header">Enable touchpad gestures</sys:String>
-    <sys:String x:Key="touchpad_gesture_single">Single tap</sys:String>
-    <sys:String x:Key="touchpad_gesture_single_desc">Play or pause track</sys:String>
-    <sys:String x:Key="touchpad_gesture_double">Double tap</sys:String>
-    <sys:String x:Key="touchpad_gesture_double_desc">Play next track</sys:String>
-    <sys:String x:Key="touchpad_gesture_triple">Triple tap</sys:String>
-    <sys:String x:Key="touchpad_gesture_triple_desc">Play previous track</sys:String>
-    <sys:String x:Key="touchpad_gesture_hold">Touch and hold</sys:String>
-    <sys:String x:Key="touchpad_gesture_hold_desc">Execute custom action</sys:String>
-    <sys:String x:Key="touchpad_gesture_double_for_call">Double tap during call</sys:String>
-    <sys:String x:Key="touchpad_gesture_double_for_call_desc">Answer call or end call</sys:String>
-    <sys:String x:Key="touchpad_gesture_hold_for_call">Touch and hold during call</sys:String>
-    <sys:String x:Key="touchpad_gesture_hold_for_call_desc">Decline call</sys:String>
+    <sys:String x:Key="touchpad_gesture_header">Fülhallgató-vezérlők engedélyezése</sys:String>
+    <sys:String x:Key="touchpad_gesture_single">Egy érintés</sys:String>
+    <sys:String x:Key="touchpad_gesture_single_desc">Lejátszás/szünet</sys:String>
+    <sys:String x:Key="touchpad_gesture_double">Dupla érintés</sys:String>
+    <sys:String x:Key="touchpad_gesture_double_desc">Köv. szám</sys:String>
+    <sys:String x:Key="touchpad_gesture_triple">Tripla érintés</sys:String>
+    <sys:String x:Key="touchpad_gesture_triple_desc">Előző szám</sys:String>
+    <sys:String x:Key="touchpad_gesture_hold">Nyomvatartás</sys:String>
+    <sys:String x:Key="touchpad_gesture_hold_desc">Egyedi művelet végrehajtása</sys:String>
+    <sys:String x:Key="touchpad_gesture_double_for_call">Dupla érintés hívás közben</sys:String>
+    <sys:String x:Key="touchpad_gesture_double_for_call_desc">Hívás fogadása vagy befejezése</sys:String>
+    <sys:String x:Key="touchpad_gesture_hold_for_call">Érintés és nyomva tartás</sys:String>
+    <sys:String x:Key="touchpad_gesture_hold_for_call_desc">Hívás elutasítása</sys:String>
 
     <!--Touchpad page-->
-    <sys:String x:Key="touchpad_header">Touchpad</sys:String>
-    <sys:String x:Key="touchpad_lock">Lock touchpad</sys:String>
-    <sys:String x:Key="touchpad_left_action">Left long-press action</sys:String>
-    <sys:String x:Key="touchpad_right_action">Right long-press action</sys:String>
-    <sys:String x:Key="touchpad_default_action">Built-in touch action</sys:String>
+    <sys:String x:Key="touchpad_header">Fülhallgató-vezérlők</sys:String>
+    <sys:String x:Key="touchpad_lock">Fülhallgató-vezérlők tiltása</sys:String>
+    <sys:String x:Key="touchpad_left_action">Érintve tartásos vezérlés - Bal</sys:String>
+    <sys:String x:Key="touchpad_right_action">Érintve tartásos vezérlés - Jobb</sys:String>
+    <sys:String x:Key="touchpad_default_action">Beépített érintéses művelet</sys:String>
 
     <sys:String x:Key="touchpad_gestures">Advanced touch lock</sys:String>
     <sys:String x:Key="touchpad_gestures_description">Disable default touch gestures</sys:String>
